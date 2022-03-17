@@ -1,3 +1,11 @@
+#### Massivebird's fork:
+
+__Altered color scheme__ for file types (regular files, directories, sym links) to match the color scheme in my Ubuntu Server environment : )
+
+That's it, that's the fork
+
+<hr>
+
 [![k.supercrabtree.com](https://raw.githubusercontent.com/supercrabtree/k/gh-pages/k-logo.png)](http://k.supercrabtree.com)
 
 > k is the new l, yo
