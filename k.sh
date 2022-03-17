@@ -139,18 +139,18 @@ k () {
   # Colors
   # ----------------------------------------------------------------------------
   # default colors
-  K_COLOR_DI="0;34"  # di:directory
-  K_COLOR_LN="0;35"  # ln:symlink
+  K_COLOR_DI="1;34"  # di:directory
+  K_COLOR_LN="1;36"  # ln:symlink
   K_COLOR_SO="0;32"  # so:socket
   K_COLOR_PI="0;33"  # pi:pipe
-  K_COLOR_EX="0;31"  # ex:executable
+  K_COLOR_EX="1;32"  # ex:executable
   K_COLOR_BD="34;46" # bd:block special
   K_COLOR_CD="34;43" # cd:character special
   K_COLOR_SU="30;41" # su:executable with setuid bit set
   K_COLOR_SG="30;46" # sg:executable with setgid bit set
   K_COLOR_TW="30;42" # tw:directory writable to others, with sticky bit
   K_COLOR_OW="30;43" # ow:directory writable to others, without sticky bit
-  K_COLOR_BR="0;30"  # branch
+  K_COLOR_BR="1;32"  # branch
 
   # read colors if osx and $LSCOLORS is defined
   if [[ $(uname) == 'Darwin' && -n $LSCOLORS ]]; then
